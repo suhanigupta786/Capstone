@@ -143,3 +143,45 @@ nav .nav-links a {
     text-align: left;
     font-size: 24px;
   }
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contact h3 {
+    text-align: center;
+    width: 70%;
+    font-size: 34px;
+  }
+  .contact form {
+    display: flex;
+  }
+  .contact input {
+    width: 21vw;
+    margin: 0 20px;
+    padding: 10px 20px;
+    border-color: rgba(0, 0, 0, 0.16);
+    border-radius: 8px;
+    font-family: "Roboto Mono", monospace !important;
+  }
+  .contact button {
+    font-family: "Roboto Mono", monospace !important;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  .icons {
+    font-size: 43px;
+  }
+  .icons i {
+    cursor: pointer;
+  }
+  .ml-5 {
+    margin-left: 15px;
+  }
+  
