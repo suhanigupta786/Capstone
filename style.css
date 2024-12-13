@@ -220,3 +220,31 @@ nav .nav-links a {
       font-size: 80px;
     }
   }
+  @media (max-width: 768px) {
+    .nav-items {
+      display: none;
+    }
+    .ham {
+      display: block;
+    }
+    .nav-items a {
+      color: white !important;
+    }
+    .nav-items.dis {
+      width: 101vw;
+      left: 0;
+    }
+  }
+  @media (max-width: 440px) {
+    .frames {
+      width: 85%;
+    }
+    .images {
+      width: 85%;
+    }
+    .frames img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
