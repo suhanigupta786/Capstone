@@ -207,4 +207,16 @@ nav .nav-links a {
     background-color: black;
     color: white;
   }
-  
+  @media (max-width: 1239px) {
+    .header h1 {
+      font-size: 100px;
+    }
+    .image9 {
+      display: none;
+    }
+  }
+  @media (max-width: 889px) {
+    .header h1 {
+      font-size: 80px;
+    }
+  }
