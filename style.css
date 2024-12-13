@@ -94,4 +94,37 @@ nav .nav-links a {
     text-align: center;
     font-size: 45px;
   }
+  .featured {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.16);
+  }
+  .mt-4 {
+    margin-top: 30px;
+  }
+  .mb-10 {
+    margin-bottom: 50px;
+  }
+  .featured h1 {
+    font-size: 68px;
+  }
+  .featured p {
+    font-size: 24px;
+  }
   
+  .featured button {
+    font-family: "Roboto Mono", monospace !important;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  .featured img {
+    width: 100%;
+    height: auto;
+  }
