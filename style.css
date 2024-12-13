@@ -128,3 +128,18 @@ nav .nav-links a {
     width: 100%;
     height: auto;
   }
+  .quote {
+    padding: 156px 10px;
+    text-align: center;
+    text-wrap: wrap;
+  }
+  .quote div {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .quote div p {
+    width: 40%;
+    text-align: left;
+    font-size: 24px;
+  }
